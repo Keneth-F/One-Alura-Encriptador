@@ -1,0 +1,79 @@
+body {
+  color: #0a3871;
+  background: #e5e5e5;
+  font-size: 32px;
+}
+main {
+  display: flex;
+  gap: 70px;
+}
+section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+aside {
+  width: 440px;
+}
+small {
+  font-size: 12px;
+  display: block;
+}
+input {
+  margin: 20px;
+  width: 577px;
+  border: none;
+  background: none;
+  font-size: 32px;
+}
+div {
+  width: 100%;
+  margin: 50px;
+  padding: 50px;
+}
+button {
+  width: 400px;
+  height: 40px;
+}
+#encriptar {
+  border-radius: 8px;
+  border: none;
+  background: #0a3871;
+}
+#desencriptar,
+#copiar {
+  border-radius: 8px;
+  border: solid #0a3871 1px;
+}
+aside {
+  background-color: white;
+  padding: 80px 40px;
+  border-radius: 18px;
+  text-align: center;
+}
+p {
+  font-weight: bold;
+}
+span {
+  font-size: 16px;
+}
+footer {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  aside {
+    margin: auto;
+  }
+  aside img {
+    display: none;
+  }
+  main {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
